@@ -2,7 +2,10 @@
 from random import randint
 
 
-def brain_prime():
+prime_rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+
+def prime_game():
     number = randint(1, 100)
     question = f'{number}'
     for divisor in range(1, number // 2):

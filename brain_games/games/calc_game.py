@@ -2,7 +2,10 @@
 from random import randint
 
 
-def brain_calc():
+calc_rule = 'What is the result of the expression?'
+
+
+def calc_game():
     operand_one = randint(1, 100)
     operand_two = randint(1, 100)
     sign = randint(1, 3)
