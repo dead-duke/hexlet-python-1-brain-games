@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.1.1"
+version = "1.0.0"
 description = ""
 authors = ["Artem Terenin <artemterenin@gmail.com>"]
 readme = "README.md"
@@ -8,7 +8,7 @@ readme = "README.md"
 packages = [{include = "brain_games"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.8.1"
 prompt = "^0.4.1"
 
 [tool.poetry.scripts]
