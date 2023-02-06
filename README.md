@@ -7,7 +7,7 @@ Console games for one player.
 
 ## Requirements
 
-* Python ^3.8.1
+* Python >=3.8.1
 * Make
 
 ## Installation and launch
