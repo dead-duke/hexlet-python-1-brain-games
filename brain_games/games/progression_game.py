@@ -11,15 +11,15 @@ def progression_game():
     prog_length = 10
     prog_finish = prog_start + (prog_length * prog_step)
     prog = list(range(prog_start, prog_finish, prog_step))
-    prog_hidden_value = randint(0, prog_length - 1)
+    prog_hidden_index = randint(0, prog_length - 1)
 
     question = ''
     for index, value in enumerate(prog):
-        if index == prog_hidden_value:
+        if index == prog_hidden_index:
             question += '.. '
         else:
             question += f'{value} '
     question = question.strip()
 
-    correct_answer = prog[prog_hidden_value]
+    correct_answer = prog[prog_hidden_index]
     return (question, str(correct_answer))
