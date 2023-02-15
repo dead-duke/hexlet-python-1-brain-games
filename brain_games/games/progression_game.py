@@ -1,11 +1,10 @@
-#!/usr/bin/env python3
 from random import randint
 
 
 progression_rule = 'What number is missing in the progression?'
 
 
-def progression_game():
+def start_progression_game():
     prog_step = randint(1, 10)
     prog_start = randint(1, 100)
     prog_length = 10

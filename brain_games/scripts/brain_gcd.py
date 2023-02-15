@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-from ..game_engine import game_engine
-from ..games.gcd_game import gcd_game, gcd_rule
+from ..game_engine import start_game_engine
+from ..games.gcd_game import start_gcd_game, gcd_rule
 
 
 def main():
-    game_engine(gcd_rule, gcd_game)
+    start_game_engine(gcd_rule, start_gcd_game)
 
 
 if __name__ == '__main__':

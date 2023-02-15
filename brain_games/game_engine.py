@@ -1,12 +1,12 @@
-from .cli import welcome_user, get_user_answer
+from .cli import greetings_user, get_user_answer
 
 
-def game_engine(rule, game):
-    user_name = welcome_user()
+def start_game_engine(rule, start_game):
+    user_name = greetings_user()
     print(rule)
 
     for _ in range(3):
-        (question, correct_answer) = game()
+        (question, correct_answer) = start_game()
         print(f'Question: {question}')
         user_answer = get_user_answer()
         if user_answer != correct_answer:

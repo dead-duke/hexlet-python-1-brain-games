@@ -1,11 +1,10 @@
-#!/usr/bin/env python3
 from random import randint
 
 
 gcd_rule = 'Find the greatest common divisor of given numbers.'
 
 
-def gcd_game():
+def start_gcd_game():
     operand_one = randint(1, 100)
     operand_two = randint(1, 100)
     question = f'{operand_one} {operand_two}'
