@@ -1,6 +1,5 @@
 from random import randint
 
-
 gcd_rule = 'Find the greatest common divisor of given numbers.'
 
 

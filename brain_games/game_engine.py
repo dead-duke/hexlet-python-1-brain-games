@@ -1,4 +1,4 @@
-from .cli import greetings_user, get_user_answer
+from .cli import get_user_answer, greetings_user
 
 
 def start_game_engine(rule, start_game):

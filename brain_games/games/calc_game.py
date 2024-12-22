@@ -1,6 +1,5 @@
 from random import randint
 
-
 calc_rule = 'What is the result of the expression?'
 
 

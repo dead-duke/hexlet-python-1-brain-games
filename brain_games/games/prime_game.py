@@ -1,6 +1,5 @@
 from random import randint
 
-
 prime_rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 

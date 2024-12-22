@@ -1,6 +1,5 @@
 from random import randint
 
-
 progression_rule = 'What number is missing in the progression?'
 
 
