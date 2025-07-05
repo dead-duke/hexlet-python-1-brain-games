@@ -1,7 +1,7 @@
 # Hexlet: "Brain games"
 
-[![Actions Status](https://github.com/grim-vagabond/hexlet-python-1-brain-games/actions/workflows/hexlet-check.yml/badge.svg?branch=main)](https://github.com/grim-vagabond/hexlet-python-1-brain-games/actions/workflows/hexlet-check.yml)
-[![Maintainability](https://api.codeclimate.com/v1/badges/7e28e1ccaf5fe0b027a1/maintainability)](https://codeclimate.com/github/grim-vagabond/hexlet-python-1-brain-games/maintainability)
+[![Actions Status](https://github.com/dead-duke/hexlet-python-1-brain-games/actions/workflows/hexlet-check.yml/badge.svg?branch=main)](https://github.com/dead-duke/hexlet-python-1-brain-games/actions/workflows/hexlet-check.yml)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=dead-duke_hexlet-python-1-brain-games&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=dead-duke_hexlet-python-1-brain-games)
 
 Console games for one player.
 
